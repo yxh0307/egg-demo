@@ -16,7 +16,7 @@ module.exports = appInfo => {
   config.keys = appInfo.name + '_1653362710513_3008';
 
   // add your middleware config here
-  config.middleware = [];
+  config.middleware = ['error'];
 
   config.mongoose = {
     client: {
